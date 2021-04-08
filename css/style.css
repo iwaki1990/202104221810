@@ -207,18 +207,22 @@ img.about_picture {
 }
 
 .a{
-  background:magenta;
-  height :60%;
-  width: 40%;
-  left: 0;
-  top:40%;
+  background:deeppink;
+  height :200px;
+  width: 80%;
+  top: 10%;
+  right: 10%;
+  position: absolute;
+  z-index: 10;
+  
   }
 
 .meeting{
   width: 20%;
-  height: 20%;
-  z-index: 1;
-  
+  height: 20%; 
+  right: 10%;
+  position: relative;
+  z-index: 20;
 }
 
 
@@ -267,6 +271,7 @@ img.about_picture {
 
 .card__content {
   padding: 15px 25px;
+  position: relative;
 }
 
 .card__ttl {
@@ -278,10 +283,14 @@ img.about_picture {
 .card__cat {
   padding: 5px 10px;
   background-color:deeppink ;
-  margin-bottom: 15px;
   display: inline-block;
   color: #fff;
   font-size: 14px;
+  border-radius: 30%;
+  z-index: 1;
+  position: absolute;
+  margin-left: 1%;
+
 }
 
 .tag {
@@ -345,20 +354,28 @@ table th {
 
 .contact {/*親div*/
   position: relative;/*相対配置*/
+  margin-top: 20%;
+  margin-left: 5%;
   }
 
-.contact p1 {
+.contact h1 {
   position: absolute;/*絶対配置*/
   color: white;/*文字は白に*/
-  top: 0;
-  left: 0;
+  left: 15%;
+  top: 50%;
+  font-size: 50px;
   }
 
+  .contact h2 {
+    position: absolute;/*絶対配置*/
+    color: white;/*文字は白に*/
+    right: 15%;
+    top: 50%;
+    font-size: 50px;
+    }
 
 
-.contact{margin-top: 20%;
-  margin-left: 5%;
-}
+
 
 
 
@@ -382,7 +399,7 @@ html {
 .footer{
   margin-top: 10%;
   margin-bottom: 50%;
-  margin-left: 50%;
+  margin-left: 41%;
 }
 
 
@@ -469,4 +486,10 @@ a.btn-gradient:hover {
 
 a.btn-gradient:hover:after {
   opacity: 0;
+}
+
+.form{
+  margin-bottom: 10%;
+  left: 5% ;
+  font-size: 60%;
 }
