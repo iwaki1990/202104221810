@@ -208,7 +208,7 @@ img.about_picture {
 .service{
   margin-top: 20%;
   
-  position: relative;
+  
   
 }
 
@@ -229,13 +229,13 @@ img.about_picture {
 
 
 .meeting{
-  width: 40%;
+  width: 60%;
   height: 20%; 
   display: flex; 
   margin-right: auto;
   margin-left: auto;
   margin-top: 5%;
-  flex-direction: column;
+  
 }
 
 .meeting_a{
@@ -243,7 +243,7 @@ img.about_picture {
   height :300px;
   width: 30%;
   
-  position:absolute;
+  
   top:10%;
   
   }
@@ -262,7 +262,6 @@ img.about_picture {
     background-color:mediumvioletred;
     height :200px;
     width: 30%;
-    position:absolute;
     right: 20%;
     top:10%;
     
@@ -272,7 +271,7 @@ img.about_picture {
       background-color:orchid;
       height :300px;
       width: 80%;
-      position:absolute;
+      
       top:10%;
       right: 20%;
       
