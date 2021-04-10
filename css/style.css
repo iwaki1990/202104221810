@@ -245,12 +245,22 @@ about_back{
   
   }
 
+.meeting_right{
+  position:absolute;
+  right: 5%;
+}
+
+.meeting_left{
+  
+}
+
+
   .meeting_b{
     background-color:mediumvioletred;
     height :200px;
     width: 30%;
     
-    position:absolute;
+    
     top:10%;
     }
 
@@ -259,7 +269,7 @@ about_back{
       height :200px;
       width: 30%;
       
-      position:absolute;
+      
       top:10%;
       }
 
