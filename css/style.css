@@ -157,7 +157,7 @@ a {
 
 img.about_picture { 
   vertical-align: middle; 
-  right: 0;
+  margin-right: 8%;
   width: 30%;
   height: 30%;
   margin-top: 10%;
@@ -180,7 +180,15 @@ img.about_picture {
   color: darkgray;
 }
 
-
+about_back{
+    border:1px solid #e5e5e5;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: grey;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
 
 
 /*service*/
@@ -189,6 +197,7 @@ img.about_picture {
   margin-top: 20%;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 
 .servicetitle1{
@@ -211,18 +220,16 @@ img.about_picture {
   height :200px;
   width: 80%;
   top: 10%;
-  right: 10%;
+  
   position: absolute;
-  z-index: 10;
+  
   
   }
 
 .meeting{
-  width: 20%;
+  width: 40%;
   height: 20%; 
-  right: 10%;
-  position: relative;
-  z-index: 20;
+  display: flex;
 }
 
 
@@ -252,11 +259,7 @@ img.about_picture {
 }
 
 
-.flex__item{
-  display: flex;
-  justify-content: space-between;
-  
-}
+
 
 .practice__card {
   width: 30%;
@@ -286,7 +289,7 @@ img.about_picture {
   display: inline-block;
   color: #fff;
   font-size: 14px;
-  border-radius: 30%;
+  border-radius: 90%;
   z-index: 1;
   position: absolute;
   margin-left: 1%;
@@ -300,7 +303,6 @@ img.about_picture {
 
 .card__tag {
   display: inline-block;
-  color:dimgrey
 }
 
 .card__date {
@@ -313,6 +315,7 @@ img.about_picture {
   display: flex;
   justify-content: space-between;
 }
+
 
 /*company*/
 
@@ -336,7 +339,8 @@ img.about_picture {
 
 table {
   width: 60%;
-  margin-left: 30%;
+  margin-left: 25%;
+  margin-right: 30%;
 
 }
 table th,
@@ -398,7 +402,7 @@ html {
 
 .footer{
   margin-top: 10%;
-  margin-bottom: 50%;
+  margin-bottom: 4%;
   margin-left: 41%;
 }
 
@@ -489,7 +493,7 @@ a.btn-gradient:hover:after {
 }
 
 .form{
-  margin-bottom: 10%;
+  margin-bottom: 4%;
   left: 5% ;
   font-size: 60%;
 }
