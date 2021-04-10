@@ -137,7 +137,17 @@ a {
 
 /*about*/
 
+.about{
+  margin-top: 20%;
+  
+  position: relative;
+  
+}
 
+.about_back{
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .abouttitle1{
   margin-top: 8%;
@@ -195,9 +205,9 @@ about_back{
 
 .service{
   margin-top: 20%;
-  margin-right: auto;
-  margin-left: auto;
+  
   position: relative;
+  
 }
 
 .servicetitle1{
@@ -219,24 +229,54 @@ about_back{
 .meeting{
   width: 40%;
   height: 20%; 
-  display: flex;
-  
+  display: flex; 
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
 }
 
 .meeting_a{
   background-color:deeppink;
   height :200px;
-  width: 80%;
-  top: 10%;
-
+  width: 30%;
+  
+  position:absolute;
+  top:10%;
+  
   }
 
+  .meeting_b{
+    background-color:mediumvioletred;
+    height :200px;
+    width: 30%;
+    
+    position:absolute;
+    top:10%;
+    }
+
+    .meeting_c{
+      background-color:orchid;
+      height :200px;
+      width: 30%;
+      
+      position:absolute;
+      top:10%;
+      }
 
 
 .meeting1{
+  width: 40%;
+  
 }
 
 .meeting2{
+  width: 40%;
+  
+ 
+}
+
+.meeting3{
+  width: 40%;
   
 }
 
@@ -245,9 +285,10 @@ about_back{
 
 .blog{
   margin-top: 10%;
-  margin-right: auto;
-  margin-left: auto;
+ 
 }
+
+
 .blogtitle1{
   margin-top: 5%;
   margin-right: 10%;
@@ -320,12 +361,20 @@ about_back{
 .flex__item {
   display: flex;
   justify-content: space-between;
+  
 }
 
 
 /*company*/
 
+.company{
+  position: relative;
+}
 
+.company_table{
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .companytitle1{
   margin-top: 5%;
