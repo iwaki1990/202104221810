@@ -145,7 +145,7 @@ a {
 }
 
 .about_back{
-  margin-right: auto;
+  margin-right:auto;
   margin-left: auto;
 }
 
@@ -170,16 +170,16 @@ img.about_picture {
   margin-right: 8%;
   width: 30%;
   height: 30%;
-  margin-top: 10%;
+  
   
   }
 
 .about_a{
-  margin-top: 10%;
+  
   font-size: 20px;
   margin-right: 20%;
   margin-left: 10%;
-  color: darkgray;
+  color: whitesmoke;
 }
 
 .about_b{
@@ -187,18 +187,20 @@ img.about_picture {
   font-size: 20px;
   margin-right: 20%;
   margin-left: 10%;
-  color: darkgray;
+  color: whitesmoke;
 }
 
-about_back{
+.about_back{
     border:1px solid #e5e5e5;
     padding: 10px;
     padding-left: 30px;
-    background-color: grey;
-    margin: 10px 0;
+    background-color:lightgray;
+    margin-top: 3%;
     font-size: 16px;
     line-height: 1.8;
 }
+
+
 
 
 /*service*/
@@ -233,11 +235,12 @@ about_back{
   margin-right: auto;
   margin-left: auto;
   margin-top: 5%;
+  flex-direction: column;
 }
 
 .meeting_a{
   background-color:deeppink;
-  height :200px;
+  height :300px;
   width: 30%;
   
   position:absolute;
@@ -246,8 +249,8 @@ about_back{
   }
 
 .meeting_right{
-  position:absolute;
   right: 5%;
+
 }
 
 .meeting_left{
@@ -259,18 +262,21 @@ about_back{
     background-color:mediumvioletred;
     height :200px;
     width: 30%;
-    
-    
+    position:absolute;
+    right: 20%;
     top:10%;
+    
     }
 
     .meeting_c{
       background-color:orchid;
-      height :200px;
-      width: 30%;
-      
-      
+      height :300px;
+      width: 80%;
+      position:absolute;
       top:10%;
+      right: 20%;
+      
+      
       }
 
 
@@ -286,7 +292,7 @@ about_back{
 }
 
 .meeting3{
-  width: 40%;
+  width: 80%;
   
 }
 
