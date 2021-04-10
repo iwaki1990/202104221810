@@ -215,24 +215,30 @@ about_back{
 
 }
 
-.a{
-  background:deeppink;
-  height :200px;
-  width: 80%;
-  top: 10%;
-  
-  position: absolute;
-  
-  
-  }
 
 .meeting{
   width: 40%;
   height: 20%; 
   display: flex;
+  
 }
 
+.meeting_a{
+  background-color:deeppink;
+  height :200px;
+  width: 80%;
+  top: 10%;
 
+  }
+
+
+
+.meeting1{
+}
+
+.meeting2{
+  
+}
 
 
 /*blog*/
