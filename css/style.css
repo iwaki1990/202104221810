@@ -226,8 +226,8 @@ img.about_picture {
 
 
 .meeting{
-  width: 60%;
-  height: 20%; 
+  width: 100%;
+  height: 100%; 
   display: flex; 
   margin-right: auto;
   margin-left: auto;
@@ -235,64 +235,59 @@ img.about_picture {
   
 }
 
-.meeting_a{
-  background-color:deeppink;
-  height :10%;
-  
-  
-  
- 
-  
-  }
 
 .meeting_right{
+  width: 100%;
   
-  width: 80%;
-  height: 60%;
+ 
 }
 
 .meeting_left{
+  height: 100%;
+  width: 100%;
   
-  width: 80%;
-  height: 50%;
+  
 }
 
+.meeting_a{
+  background-color:deeppink;
+  width: 100%;
+}
 
   .meeting_b{
     background-color:mediumvioletred;
-    height :200px;
-    width: 70%;
-    
-    
-    
+    width: 100%;
     }
 
     .meeting_c{
       background-color:orchid;
-      height :200px;
-      width: 70%;
-      
-      
-      
+      width: 100%; 
       }
 
 
-.meeting1{
-  width: 90%;
-  height :90%;
-}
-
-.meeting2{
-  width: 90%;
-  height :90%;
+.meeting1 img{
+  width: 50%;
  
 }
 
-.meeting3{
-  width: 90%;
-  height :90%;
+.meeting2 img{
+  width: 50%;
+  
+ 
 }
 
+.meeting3 img{
+  width: 50%;
+  
+}
+
+.meeting2 h1{
+	float:right; 　 /*右側に配置する*/
+   }
+
+.meeting3 h1{
+float: right; 　 /*右側に配置する*/
+}
 
 /*blog*/
 
