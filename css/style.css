@@ -189,7 +189,7 @@ img.about_picture {
 
 .about_back{
     border:1px solid #e5e5e5;
-    padding: 50px;
+    padding: 150px;
     padding-left: 30px;
     background-color:lightgray;
     
@@ -284,15 +284,24 @@ margin-right: 20px;
 
 .example1{
   display: inline-block;
-  width: 100px;
+
  color: #fff;
  font-size: 20px;
 }
 
+.example2{
+  display: inline-block;
+ 
+ color: #fff;
+ font-size: 20px;
+}
+
+
+
 /*blog*/
 
 .blog{
-  margin-top: 30%;
+  margin-top: 50%;
  
 }
 
