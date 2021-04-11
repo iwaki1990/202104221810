@@ -226,58 +226,56 @@ img.about_picture {
 
 
 .meeting{
-  width: 100%;
-  height: 100%; 
-  display: flex; 
-  margin-right: auto;
-  margin-left: auto;
+  
   margin-top: 5%;
+  
   
 }
 
 
 .meeting_right{
-  width: 100%;
+  height: 100%;
   
- 
+  
 }
 
 .meeting_left{
   height: 100%;
-  width: 100%;
   
   
 }
 
 .meeting_a{
   background-color:deeppink;
-  width: 100%;
+  width: 50%;
+  height: 400px;
 }
 
   .meeting_b{
     background-color:mediumvioletred;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     }
 
     .meeting_c{
       background-color:orchid;
-      width: 100%; 
+      height: 50%;
       }
 
 
 .meeting1 img{
-  width: 50%;
+  width: 45%;
  
 }
 
 .meeting2 img{
-  width: 50%;
+  width: 20%;
   
  
 }
 
 .meeting3 img{
-  width: 50%;
+  width: 20%;
   
 }
 
@@ -292,7 +290,7 @@ float: right; 　 /*右側に配置する*/
 /*blog*/
 
 .blog{
-  margin-top: 10%;
+  margin-top: 30%;
  
 }
 
