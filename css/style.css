@@ -236,12 +236,13 @@ margin-right: 20px;
 .meeting_right{
     width:  100%;
     display:block;
+    text-align: center;
     
 }
 
 .meeting_left{
   width:  100%;
-  
+  text-align: center;
   
 }
 
@@ -281,7 +282,12 @@ margin-right: 20px;
   float: left;
 }
 
-
+.example1{
+  display: inline-block;
+  width: 100px;
+ color: #fff;
+ font-size: 20px;
+}
 
 /*blog*/
 
