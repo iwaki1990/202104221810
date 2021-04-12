@@ -92,24 +92,33 @@ a {
 
 /*news*/
 
+.news{
+  width:80%;
+  height: 100%;
+  margin-top: 5%;
+  position: relative;
+ }
+
+ .newss{
+   position:absoluto;
+   
+ }
+
 .newstitle1{
   margin-bottom: 3%;
+  text-align: center;
 }
 
   .newstitle2{
-    text-align: left;
+    text-align: center;
     margin-bottom: 5%;
     font-size: 20px;
 
     }
 
-    .news{
-      width:500px;
-      margin-right: auto;
-      margin-left: auto;
-      margin-top: 5%;
-      
-     }
+  
+
+
 
      .news2{
       border-bottom:1px solid #ccc;
@@ -121,8 +130,8 @@ a {
 
      dd{
       border-bottom:1px solid #ccc;
-       margin-left:100px;
-       padding:10px 5px;
+       margin-left:10px;
+       padding:12px 9px;
      }
 
      .a1{
@@ -140,24 +149,24 @@ a {
 .about{
   margin-top: 10%;
   
-  position: relative;
+ 
   
 }
 
 
 
 .abouttitle1{
-  
-  margin-right: 10%;
-  margin-left: 30%;
+  margin-bottom: 1%;
+  margin-right: 50%;
+  margin-left: 50%;
   
 }
 
 .abouttitle2
-{margin-right: 10%;
-  margin-left: 30%;
+{margin-right: 30%;
+  margin-left: 50%;
     font-size: 20px;
-    
+    margin-bottom: 5%;
 
 }
 
@@ -192,7 +201,7 @@ img.about_picture {
     padding: 150px;
     padding-left: 30px;
     background-color:lightgray;
-    
+     
     font-size: 16px;
     line-height: 1.8;
 }
@@ -249,24 +258,24 @@ margin-right: 20px;
 .meeting_a{
   background-color:deeppink;
   
-  height: 200%;
+  height: 100%;
 }
 
   .meeting_b{
     background-color:mediumvioletred;
-    height: 100%;
+    height: 50%;
     
     }
 
     .meeting_c{
       background-color:orchid;
-      height: 100%;
+      height: 50%;
       
       }
 
 
 .meeting1 img{
-  width: 50%;
+  width: 25%;
   margin-left: 25%;
  
 }
@@ -379,6 +388,8 @@ margin-right: 20px;
 .flex__item {
   display: flex;
   justify-content: space-between;
+  margin-left: 10%;
+  
   
 }
 
