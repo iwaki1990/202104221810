@@ -93,10 +93,11 @@ a {
 /*news*/
 
 .news{
-  width:80%;
+  width:65%;
   height: 100%;
-  margin-top: 5%;
-  position: relative;
+  
+ 
+  margin: 5% auto;
  }
 
  .newss{
@@ -106,11 +107,11 @@ a {
 
 .newstitle1{
   margin-bottom: 3%;
-  text-align: center;
+  text-align: left;
 }
 
   .newstitle2{
-    text-align: center;
+    text-align: left;
     margin-bottom: 5%;
     font-size: 20px;
 
@@ -131,7 +132,7 @@ a {
      dd{
       border-bottom:1px solid #ccc;
        margin-left:10px;
-       padding:12px 9px;
+       padding:12px 0;
      }
 
      .a1{
@@ -461,30 +462,37 @@ table th {
 
 /*contact*/
 
-
-.contact {/*親div*/
-  position: relative;/*相対配置*/
-  margin-top: 20%;
-  margin-left: 5%;
+.yokonarabi{/*親div*/
+  float:left ;
+  position: relative;
+  text-align:center;
+  
   }
 
-.contact h1 {
-  position: absolute;/*絶対配置*/
+.yokonarabi>div{
+  
+  }
+
+  .box1{
+    position: absolute;
+   }
+  .box2{
+    position: absolute;
+    
+  }
+
+  
+.box1 h1 {
   color: white;/*文字は白に*/
-  left: 15%;
   top: 50%;
   font-size: 50px;
   }
 
-  .contact h2 {
-    position: absolute;/*絶対配置*/
+  .box2 h2 {
     color: white;/*文字は白に*/
-    right: 15%;
     top: 50%;
     font-size: 50px;
     }
-
-
 
 
 
