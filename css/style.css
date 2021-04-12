@@ -463,35 +463,32 @@ table th {
 /*contact*/
 
 .yokonarabi{/*親div*/
-  float:left ;
-  position: relative;
-  text-align:center;
-  
+  display:flex;
+justify-content: center;
+position: relative;
+
   }
 
 .yokonarabi>div{
   
   }
 
-  .box1{
-    position: absolute;
-   }
-  .box2{
-    position: absolute;
-    
-  }
 
   
-.box1 h1 {
+ .saiyou {
   color: white;/*文字は白に*/
   top: 50%;
-  font-size: 50px;
+  font-size: 25px;
+  position: absolute;
+  left: 25%;
   }
 
-  .box2 h2 {
+  .syain {
     color: white;/*文字は白に*/
     top: 50%;
-    font-size: 50px;
+    font-size: 25px;
+    position: absolute;
+    left: 65%;
     }
 
 
