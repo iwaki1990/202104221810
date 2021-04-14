@@ -213,14 +213,14 @@ img.about_picture {
 /*service*/
 
 .service{
-  margin-top: 5%;
+  margin: 5%;
   
   
   
 }
 
 .servicetitle1{
-  margin-top: 8%;
+  
   margin-left: 10%;
   color:magenta;
 }
@@ -228,13 +228,13 @@ img.about_picture {
 .servicetitle2
 {margin-left: 10%;
     font-size: 20px;
-    margin-top: 1%;
+    
 
 }
 
 
 .meeting{
-  margin-top: 5%;
+  
  display:flex;
  margin-left: 10%;
 margin-right: 10%;
@@ -257,52 +257,57 @@ margin-right: 10%;
 .meeting_a{
   background-color:deeppink;
   
-  height: 80%;
+  height: 140%;
 }
 
   .meeting_b{
     background-color:mediumvioletred;
-    height: 40%;
+    height: 70%;
+    
     
     }
 
     .meeting_c{
       background-color:orchid;
-      height: 40%;
+      height: 70%;
       
       }
 
+.meeting_b1{
+  display: flex;
+}
+
+.meeting_c1{
+  display: flex;
+}
+
 
 .meeting1 img{
-  width: 25%;
+  width: 20%;
   margin-left: 25%;
  
 }
 
 .meeting2 img{
-  width: 25%;
+  width: 15%;
   float: left;
  
 }
 
 .meeting3 img{
-  width: 25%;
+  width: 15%;
   float: left;
 }
 
 .example1{
-  display: inline-block;
-  
  color: #fff;
- font-size: 20px;
+ font-size: 15px;
  
 }
 
 .example2{
-  display: inline-block;
- margin: 5%;
  color: #fff;
- font-size: 20px;
+ font-size: 15px;
  
 }
 
