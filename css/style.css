@@ -108,6 +108,7 @@ a {
 .newstitle1{
   margin-bottom: 3%;
   text-align: left;
+  color:magenta;
 }
 
   .newstitle2{
@@ -160,11 +161,12 @@ a {
   margin-bottom: 1%;
   margin-right: 50%;
   margin-left: 50%;
+  color:magenta;
   
 }
 
 .abouttitle2
-{margin-right: 30%;
+{margin-right: 50%;
   margin-left: 50%;
     font-size: 20px;
     margin-bottom: 5%;
@@ -221,14 +223,14 @@ img.about_picture {
 
 .servicetitle1{
   margin-top: 8%;
-  margin-right: 10%;
-  margin-left: 30%;
-  
+  margin-right: 50%;
+  margin-left: 50%;
+  color:magenta;
 }
 
 .servicetitle2
-{margin-right: 10%;
-  margin-left: 30%;
+{margin-right: 50%;
+  margin-left: 50%;
     font-size: 20px;
     margin-top: 1%;
 
@@ -318,14 +320,14 @@ margin-right: 10%;
 
 .blogtitle1{
   margin-top: 5%;
-  margin-right: 10%;
-  margin-left: 30%;
-  
+  margin-right: 50%;
+  margin-left: 50%;
+  color:magenta;
 }
 
 .blogtitle2
-{margin-right: 10%;
-  margin-left: 30%;
+{margin-right: 50%;
+  margin-left: 50%;
     font-size: 20px;
     margin-top: 1%;
     margin-bottom: 5%;
@@ -337,7 +339,6 @@ margin-right: 10%;
 
 .practice__card {
   width: 30%;
-  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
  
 }
 
@@ -356,6 +357,7 @@ margin-right: 10%;
   font-size: 18px;
   margin-bottom: 30px;
   font-weight: 400;
+  
 }
 
 .card__cat {
@@ -378,11 +380,13 @@ margin-right: 10%;
 
 .card__tag {
   display: inline-block;
+  left: 0;
+  position: absolute;
 }
 
 .card__date {
   display: inline-block;
-  margin-left: 20px;
+ 
   color: #888888;
 }
 
@@ -430,14 +434,14 @@ margin-right: 10%;
 
 .companytitle1{
   margin-top: 20%;
-  margin-right: 10%;
-  margin-left: 30%;
-  
+  margin-right: 50%;
+  margin-left: 50%;
+  color:magenta;
 }
 
 .companytitle2
-{margin-right: 10%;
-  margin-left: 30%;
+{margin-right: 50%;
+  margin-left: 50%;
     font-size: 20px;
     margin-top: 1%;
     margin-bottom: 5%;
