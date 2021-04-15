@@ -309,7 +309,7 @@ img.about_picture {
  color: #fff;
  font-size: 20px;
  padding: 3%;
-  
+ letter-spacing:1px;
 }
 
 
@@ -359,6 +359,7 @@ img.about_picture {
   font-size: 20px;
   padding: 15% ;
   color: #888888;
+  letter-spacing:2px;
 }
 
 .card__cat {
