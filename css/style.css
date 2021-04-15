@@ -199,7 +199,7 @@ img.about_picture {
 
 .about_back{
     border:1px solid #e5e5e5;
-    margin-top: 0%;
+    margin-top: 20%;
     padding: 150px;
     background-color:lightgray;
      
@@ -220,7 +220,7 @@ img.about_picture {
 }
 
 .servicetitle1{
-  
+  margin-bottom: 1%;
   margin-left: 10%;
   color:magenta;
 }
@@ -228,81 +228,81 @@ img.about_picture {
 .servicetitle2
 {margin-left: 10%;
     font-size: 20px;
-    
+    margin-bottom: 1%;
 
 }
 
 
-.meeting{
-  
+.meeting{ 
  display:flex;
  margin-left: 10%;
-margin-right: 10%;
+ margin-right: 10%;
 }
+
 
 
 .meeting_right{
-    width:  50%;
+    width:  60%;
     display:block;
-    text-align: center;
+   
     
 }
 
 .meeting_left{
-  width:  50%;
+  width:  60%;
   text-align: center;
   
 }
 
 .meeting_a{
   background-color:deeppink;
-  
-  height: 140%;
+
+  height: 150%;
 }
 
   .meeting_b{
     background-color:mediumvioletred;
-    height: 70%;
+    height: 75%;
     
-    
+    display:flex
     }
 
     .meeting_c{
       background-color:orchid;
-      height: 70%;
-      
+      height: 75%;
+      display: flex;
       }
 
 .meeting_b1{
-  display: flex;
+  
 }
 
 .meeting_c1{
-  display: flex;
+  
 }
 
 
 .meeting1 img{
-  width: 20%;
+  width: 30%;
   margin-left: 25%;
  
 }
 
 .meeting2 img{
-  width: 15%;
+  width: 20%;
   float: left;
  
 }
 
 .meeting3 img{
-  width: 15%;
+  width: 20%;
   float: left;
 }
 
 .example1{
  color: #fff;
  font-size: 15px;
- 
+ padding-top: 5%;
 }
 
 .example2{
