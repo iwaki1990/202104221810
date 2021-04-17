@@ -256,8 +256,8 @@ img.about_picture {
 
 .meeting_a{
   background-color:deeppink;
-
   height: 120%;
+  margin: 1%;
 }
 
   .meeting_b{
@@ -273,12 +273,8 @@ img.about_picture {
       
       }
 
-.meeting_b1{
-  
-}
-
-.meeting_c1{
-  
+.meeting1{
+  margin: 3%;
 }
 
 
@@ -303,6 +299,7 @@ img.about_picture {
  color: #fff;
  font-size: 20px;
  padding:5%;
+
 }
 
 .example2{
@@ -310,6 +307,7 @@ img.about_picture {
  font-size: 20px;
  padding: 3%;
  letter-spacing:1px;
+ 
 }
 
 
@@ -378,6 +376,9 @@ img.about_picture {
 .tag {
   font-size: 14px;
   text-align: right;
+  
+    margin: 3%
+  
 }
 
 .card__tag {
