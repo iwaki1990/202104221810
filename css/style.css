@@ -251,25 +251,25 @@ img.about_picture {
 .meeting_left{
   width:  60%;
   text-align: center;
-  
+  background-color:deeppink;
 }
 
 .meeting_a{
-  background-color:deeppink;
+  
   height: 120%;
-  margin: 1%;
+  margin: 5%;
 }
 
   .meeting_b{
     background-color:mediumvioletred;
-    height: 60%;
+    height: 50%;
     
     
     }
 
     .meeting_c{
       background-color:orchid;
-      height: 60%;
+      height: 50%;
       
       }
 
