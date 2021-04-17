@@ -257,7 +257,7 @@ img.about_picture {
 .meeting_a{
   
   height: 120%;
-  margin: 5%;
+  margin: 15%;
 }
 
   .meeting_b{
@@ -274,13 +274,13 @@ img.about_picture {
       }
 
 .meeting1{
-  margin: 3%;
+  margin: 25%;
 }
 
 
 .meeting1 img{
-  width: 30%;
-  margin-left: 25%;
+  width: 100%;
+
  
 }
 
