@@ -223,15 +223,15 @@ img.about_picture {
 }
 
 .servicetitle2
-{
+{margin-top: 3%;
     font-size: 20px;
-   
+margin-bottom: 3%;
 
 }
 
 
 .meeting{ 
-  float: left;
+  
  display: flex;
 
 }
@@ -267,33 +267,34 @@ img.about_picture {
       }
 
 .meeting1 img{
-  width: 50%;
-  
+  width: 30%;
+  margin-left: 30%;
  
 }
 
 .meeting2 img{
-  width: 50%;
+  width: 30%;
   float: left;
  
 }
 
 .meeting3 img{
-  width: 50%;
+  width: 30%;
 }
 
 .example1{
  color: #fff;
  font-size: 20px;
  margin: 5%;
-
+ margin-left: 30%;
 }
 
 .example2{
  color: #fff;
  font-size: 18px;
  width: 100%;
-margin: 5%;
+ margin-left: 30%;
+ 
 }
 
 
