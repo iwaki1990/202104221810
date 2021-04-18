@@ -263,20 +263,29 @@ img.about_picture {
   .meeting_b{
     background-color:mediumvioletred;
     height: 50%;
-    
+    width: 100%;
     
     }
 
     .meeting_c{
       background-color:orchid;
       height: 50%;
-      
+      width: 100%;
       }
 
 .meeting1{
   margin: 25%;
 }
 
+.meeting2{
+  display: flex;
+  width: 100%;
+  }
+
+.meeting3{
+display: flex;
+width: 100%;
+}
 
 .meeting1 img{
   width: 120%;
@@ -299,15 +308,16 @@ img.about_picture {
  color: #fff;
  font-size: 20px;
  padding:5%;
-
+ display:block;
 }
 
 .example2{
  color: #fff;
- font-size: 20px;
- padding: 3%;
+ font-size: 18px;
+ padding: 15%;
  letter-spacing:1px;
  width: 100%;
+ display:block;
 }
 
 
