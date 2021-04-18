@@ -307,14 +307,16 @@ width: 100%;
 .example1{
  color: #fff;
  font-size: 20px;
- padding:5%;
+ padding-top: 8%;
+ padding-left: 10%;
  display:block;
 }
 
 .example2{
  color: #fff;
  font-size: 18px;
- padding: 15%;
+ padding-top: 20%;
+ padding-left: 10%;
  letter-spacing:1px;
  width: 100%;
  display:block;
