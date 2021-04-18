@@ -286,18 +286,29 @@ margin-bottom: 3%;
  color: #fff;
  font-size: 20px;
  margin: 5%;
- margin-left: 30%;
+ 
 }
 
 .example2{
  color: #fff;
- font-size: 18px;
+ font-size: 20px;
  width: 100%;
- margin-left: 30%;
+ 
  
 }
 
+.meetinga1 h3{
+  margin-left: 40%;
+}
 
+.meetinga1 p{
+  margin-left: 25%;
+}
+
+.meetingb1 p{
+  margin-left: 5%;
+  margin-bottom: 25%;
+}
 
 /*blog*/
 
