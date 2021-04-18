@@ -256,7 +256,7 @@ img.about_picture {
 
 .meeting_a{
   
-  height: 120%;
+  height: 10%;
   margin: 15%;
 }
 
@@ -279,19 +279,19 @@ img.about_picture {
 
 
 .meeting1 img{
-  width: 100%;
+  width: 120%;
 
  
 }
 
 .meeting2 img{
-  width: 30%;
+  width: 35%;
   float: left;
  
 }
 
 .meeting3 img{
-  width: 30%;
+  width: 35%;
   float: left;
 }
 
@@ -307,7 +307,7 @@ img.about_picture {
  font-size: 20px;
  padding: 3%;
  letter-spacing:1px;
- 
+ width: 100%;
 }
 
 
