@@ -224,7 +224,7 @@ img.about_picture {
 
 .servicetitle2
 {margin-top: 3%;
-    font-size: 20px;
+font-size: 20px;
 margin-bottom: 3%;
 
 }
@@ -521,9 +521,8 @@ html {
 
 
 .toiawase{
-  margin-top: 10%;
-  margin-bottom: 4%;
-  margin-left: 41%;
+  margin: 3% 0%;
+  text-align:center;
 }
 
 
@@ -627,7 +626,7 @@ a.btn-gradient:hover:after {
 }
 
 .v_line_fix {
-  margin-left: 100px;
+  margin:0% 50%;
   width: 3px;
   height: 50px;
   margin-bottom: 3%;
