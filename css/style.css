@@ -151,7 +151,7 @@ a {
 /*about*/
 
 .about{
-  margin-top: 10%;
+  margin-top: 5%;
   
  
   
@@ -239,14 +239,14 @@ margin-bottom: 3%;
 }
 
 .meeting_right{
-    width:  100%;
+    width:  50%;
     float: left;
     height: 50%;
     
 }
 
 .meeting_left{
-  width:  100%;
+  width:  50%;
   
   background-color:deeppink;
   
@@ -477,7 +477,7 @@ table th {
   display:flex;
 
 position: relative;
-
+margin-left: 5%;
   }
 
 .yokonarabi>div{
@@ -491,7 +491,7 @@ position: relative;
   top: 50%;
   font-size: 25px;
   position: absolute;
-  
+  margin-left: 17%;
   }
 
   .syain {
@@ -499,7 +499,7 @@ position: relative;
     top: 50%;
     font-size: 25px;
     position: absolute;
-    
+    margin-left: 16%;
     }
 
 
