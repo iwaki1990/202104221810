@@ -96,13 +96,14 @@ a {
   width:65%;
   height: 100%;
   
- 
+  border-bottom: solid 1px grey;
   margin: 5% auto;
  }
 
  .newss{
    position:absoluto;
    width: 100%;
+   
  }
 
 .newstitle1{
@@ -115,7 +116,8 @@ a {
     text-align: left;
     margin-bottom: 5%;
     font-size: 20px;
-
+    
+    border-bottom: solid 1px grey;
     }
 
   
@@ -125,7 +127,7 @@ a {
      .news2{
      
        float:left;
-       padding:10px 50px;
+       padding:5px 50px;
 
        
      }
@@ -302,7 +304,7 @@ margin-bottom: 3%;
 }
 
 .meetinga1 p{
-  margin-left:20%;
+  padding-left:20%;
   line-height: 3rem;
   
   
@@ -358,7 +360,7 @@ margin-bottom: 3%;
 
 .card__ttl {
   font-size: 20px;
-  padding: 15% ;
+  padding: 8% ;
   color: #888888;
   letter-spacing:2px;
   line-height: 3rem;
@@ -381,13 +383,13 @@ margin-bottom: 3%;
   font-size: 14px;
   text-align: right;
   
-    margin: 3%
+    padding: 8%;
   
 }
 
 .card__tag {
   display: inline-block;
-  left: 0;
+  left: 5%;
   position: absolute;
 }
 
@@ -473,7 +475,7 @@ table th {
 
 .yokonarabi{/*親div*/
   display:flex;
-justify-content: center;
+
 position: relative;
 
   }
@@ -489,7 +491,7 @@ position: relative;
   top: 50%;
   font-size: 25px;
   position: absolute;
-  left: 25%;
+  
   }
 
   .syain {
@@ -497,7 +499,7 @@ position: relative;
     top: 50%;
     font-size: 25px;
     position: absolute;
-    left: 65%;
+    
     }
 
 
@@ -622,9 +624,14 @@ a.btn-gradient:hover:after {
   margin-bottom: 5%;
   color: #888888;
   background-color: #dedede;
-  margin-bottom: 0%;
+  margin-bottom: 5%;
 }
 
+
+.toiawase{
+
+
+}
 .v_line_fix {
   margin:0% 50%;
   width: 3px;
