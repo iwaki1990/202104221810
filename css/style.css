@@ -478,11 +478,11 @@ table th {
   display:flex;
 
 position: relative;
-width: 50%;
+
   }
 
 .yokonarabi>div{
-  
+  width: 50%;
   }
 
 
@@ -625,7 +625,7 @@ a.btn-gradient:hover:after {
   
   color: #888888;
   background-color: #dedede;
-  margin-bottom: 5%;
+
 }
 
 
