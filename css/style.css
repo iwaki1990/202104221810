@@ -201,8 +201,9 @@ img.about_picture {
 
 .about_back{
     border:1px solid #e5e5e5;
-    
-    padding: 150px 100px;
+    padding-top: 40px;
+    padding-bottom: 200px;
+  
     background-color:lightgray;
      
     font-size: 16px;
